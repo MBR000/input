@@ -13,6 +13,10 @@
         <input v-model="stepnum">
         <input-number v-model="value" :max="10" :min="0" :step="stepnum"></input-number>
     </div>
+    <div>
+        <p>步长代表一次点击后，当前值增加或者减少的数量，直接在进行第一个input中手动修改</p>
+        <p>当前值限制在0-10之间，只能通过加减按钮修改</p>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     
     <script src="input-number.js"></script>
